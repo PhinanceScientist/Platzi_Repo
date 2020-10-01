@@ -25,16 +25,36 @@
     .header__menu {
         margin-right: 30px;
     }
+
+    .header__menu ul{
+        
+        list-style: none;
+        padding: 0px;
+        position: absolute;
+        width: 100px;
+        text-align: right;
+        margin: 0px 0px 0px -14px;
+    }
+    .header__menu--profile {
+        margin-right: 8px;
+        width: 40px;
+    }
+
+
 </style>
 
 <body>
     <header class="header">
-        <img class="header__img" src="/assets/logo-platzi-video-BW2.png" alt="">
+        <img class="header__img" src="./assets/logo-platzi-video-BW2.png" alt="">
         <div class="header__menu">
             <div class="header_menu--profile">
-                <img src="/assets/user-icon.png" alt="">
+                <img src="./assets/user-icon.png" alt="">
                 <p>Perfil</p>
             </div>
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
         </div>
     </header>
 </body>
