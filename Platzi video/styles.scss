@@ -1,3 +1,6 @@
+$primary-color: white;
+
+
 body {
     margin: 0px;   
     background-color: #4158D0;
@@ -362,7 +365,7 @@ body {
 }
 
 .error{
-    color: white;
+    color: $primary-color;
     padding-top: 100px;
     
     
