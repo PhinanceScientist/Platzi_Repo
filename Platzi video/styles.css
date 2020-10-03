@@ -17,11 +17,6 @@ body {
 
 .header__img {
   width: 200px;
-  margin-left: 30px;
-}
-
-.header__img {
-  width: 200px;
   margin-top: 10px;
   margin-left: 10px;
 }
@@ -371,7 +366,7 @@ body {
 }
 
 .error {
-  color: red;
+  color: blue;
   padding-top: 100px;
 }
 
